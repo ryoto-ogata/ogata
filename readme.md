@@ -16,7 +16,7 @@ powershellとかで cd haswai して
 
 cabal run start-haskell　でローカルサーバーが立ちます
 
-error.png のようなエラーが出た場合ghcupのbinフォルダ等を
+haswai/error.png のようなエラーが出た場合ghcupのbinフォルダ等を
 
 環境変数に追加すると実行できるかもしれません
 
