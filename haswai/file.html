@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Conten-Type' content='text/html'; charset=UTF-8>
+<title>解析結果ページ</title>
+<style type='text/css'>
+p3{color:blue}
+.contentA{
+width:5%;
+height:auto;
+}
+.contentB{
+width:35%;
+height:auto;
+}
+.contentC{
+width:60%;
+height:auto;
+}
+.main{
+display:flex;
+}
+</style>
+</head>
+<body>
+<h2><strong>解析結果</strong></h2>
+<div class='main'>
+<div class='contentA'>
+1<br>2<br><font color='red'><strong>3</strong></font><br>4<br>5<br>6<br>7<br><font color='red'><strong>8</strong></font><br><font color='red'><strong>9</strong></font><br><font color='red'><strong>10</strong></font><br>11<br>12<br>13<br><font color='red'><strong>14</strong></font><br><font color='red'><strong>15</strong></font><br>16<br>17<br>18<br>19<br>20<br>
+</div>
+<div class='contentB', style='background-color:lightyellow'>
+#include &ltstdio.h&gt<br><br>int func(int i){<br>&nbsp;&nbsp;&nbsp;&nbsp;printf("%d", i);<br>&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>}<br><br>int func(int i){<br>printf("%d", i*5, i);<br>&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d", i, i);<br>}<br><br>int main(void){<br>&nbsp;&nbsp;&nbsp;int i = 5;<br>&nbsp;&nbsp;&nbsp;&nbsp;printf("%d %d", i);<br>&nbsp;&nbsp;&nbsp;&nbsp;if (i == 6){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%d", i);<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>}<br>
+</div>
+<div class='contentC'>
+<p3><strong>ERROR</strong></p3><br>
+<p4>
+3行目の関数名が他の関数と重複しています<br>8行目の関数にreturnがありません<br>9行目 インデントをスペース4個分追加してください<br>9行目 printfで指定されている引数の数が違います<br>10行目 scanfで指定されている引数の数が違います<br>14行目 インデントをスペース1個分追加してください<br>15行目 printfで指定されている引数の数が違います<br>
+</p4>
+</div>
+</div><br>
+<a href='/..'>TOP</a><br>
+</body>
+</html>
